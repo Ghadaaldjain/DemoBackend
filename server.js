@@ -6,6 +6,8 @@ mobileApp.tables.add('Book');// Create a table for 'Book' with default settings
 mobileApp.tables.add('Users');
 mobileApp.tables.add('Product');
 mobileApp.tables.add('Category');
+mobileApp.tables.add('Cart');
+mobileApp.tables.add('CartProducts');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
